@@ -208,7 +208,7 @@ const cards = [
     title: "Chris Bryan",
     src: "chris_bryan.png",
     ctaText: "Play",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://chrisbryan.github.io/",
     content: () => {
       return (
         <p>
