@@ -1,18 +1,14 @@
-// import { Vortex } from '../components/ui/vortex';
 import { NavbarDemo } from '../components/NavbarDemo';
-import { VortexDemoSecond } from '../components/VortexDemoSecond'
 
 function Home() {
-
   return (
-    <>
-      <VortexDemoSecond>
-            <NavbarDemo></NavbarDemo>
-      </VortexDemoSecond>
-    </>
+    <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center">
+      <NavbarDemo />
+    </div>
   );
 }
 
 export default Home;
+
 
 

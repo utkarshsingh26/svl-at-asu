@@ -23,10 +23,10 @@ function Default() {
           <h2 className="text-white text-2xl md:text-6xl font-bold">
             Welcome to SVL at ASU
           </h2>
-          <p className="text-white text-sm md:text-2xl max-w-xl mt-6 mx-auto">
+          {/* <p className="text-white text-sm md:text-2xl max-w-xl mt-6 mx-auto">
             We research data visualization, human-computer interaction, and advanced interfaces for data science,
             under the direction of <a href="https://chrisbryan.github.io/" target='_blank' className="underline">Professor Chris Bryan.</a>
-          </p>
+          </p> */}
           {/* Button Container */}
           <div className="flex justify-center items-center gap-4 mt-6 w-full">
             <Link to="/home">
