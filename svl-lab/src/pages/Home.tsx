@@ -1,10 +1,12 @@
-import { NavbarDemo } from '../components/NavbarDemo';
 
 function Home() {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center">
-      <NavbarDemo />
-    </div>
+
+        <div className='container' style={{maxWidth: '1000px'}}>
+        <h1 className="mt-4" style={{textDecorationColor:'WindowFrame'}}>Publications</h1>
+
+        </div>
+
   );
 }
 

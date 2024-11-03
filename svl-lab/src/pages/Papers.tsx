@@ -1,17 +1,26 @@
-import { NavbarDemo } from '../components/NavbarDemo';
-import { TimelineDemo } from '../components/TimelineDemo';
+import DesertGraphThemeWithPapers from '../components/ui/DesertGraphThemeWithPapers';
 
 function Papers() {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center">
-      <NavbarDemo />
-      <br />
-      <TimelineDemo />
-    </div>
+
+      <DesertGraphThemeWithPapers>
+        <div>
+          <h1>Publications</h1>
+        </div>
+      </DesertGraphThemeWithPapers>
+
+
+
+
+
+
+
+
+                  
+
+
+
   );
 }
 
 export default Papers;
-
-
-
