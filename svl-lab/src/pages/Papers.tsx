@@ -40,7 +40,7 @@ function Papers() {
         <div className="container">
           <h1>Publications</h1>
           <hr />
-          <h2>Full Papers (Journal, Conference, and Symposium)</h2>
+          <b><h2>Full Papers (Journal, Conference, and Symposium)</h2></b>
           <br/>
 
           {/* Paper Entry 1 */}
@@ -94,8 +94,8 @@ function Papers() {
               <b> Image or Information? Examining the Nature and Impact of Visualization Perceptual Classification.</b>
               <i> IEEE Transactions on Visualization and Computer Graphics, 30.1, pp. 1030-1040, 2024.</i> <br/>
               <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">DOI</a> | 
-              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer">Paper</a> | 
-              <a href="https://example.com/supplementary" className="link-danger" target="_blank" rel="noopener noreferrer">Supplementary Materials</a>
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Paper</a> | 
+              <a href="https://example.com/supplementary" className="link-danger" target="_blank" rel="noopener noreferrer"> Supplementary Materials</a>
             </div>
           </div>
 
@@ -114,8 +114,8 @@ function Papers() {
               <b> LINGO: Visually Debiasing Natural Language Instructions to Support Task Diversity.</b>
               <i> Computer Graphics Forum, 42.3, 2023.</i> <br/>
               <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">DOI</a> | 
-              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer">Paper</a> | 
-              <a href="https://example.com/supplementary" className="link-danger" target="_blank" rel="noopener noreferrer">Video</a>
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Paper</a> | 
+              <a href="https://example.com/supplementary" className="link-danger" target="_blank" rel="noopener noreferrer"> Video</a>
             </div>
           </div>
 
@@ -134,7 +134,7 @@ function Papers() {
               <b> Real-Time Visual Feedback to Guide Benchmark Creation: A Human-and-Metric-in-the-Loop Workflow.</b>
               <i> Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL), pp. 2899-2927, 2023.</i> <br/>
               <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">DOI</a> | 
-              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Paper</a>
             </div>
           </div>
 
@@ -153,7 +153,7 @@ function Papers() {
               <b> ConceptExplainer: Understanding the Mental Model of Deep Learning Algorithms via Interactive Concept-based Explanations.</b>
               <i> IEEE Transactions on Visualization and Computer Graphics, 29.1, pp. 831-841, 2023.</i> <br/>
               <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">DOI</a> | 
-              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Paper</a>
             </div>
           </div>
 
@@ -172,7 +172,7 @@ function Papers() {
               <b> PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid. </b>
               <i> IEEE Transactions on Visualization and Computer Graphics, 29.1, pp. 1081-1090, 2023.</i> <br/>
               <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">DOI</a> | 
-              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Paper</a>
             </div>
           </div>
 
@@ -538,7 +538,7 @@ function Papers() {
           </div>
 
           <hr />
-          <h2>Workshop Papers, Short Papers, and Other</h2>
+          <b><h2>Workshop Papers, Short Papers, and Other</h2></b>
           <br/>
 
           {/* Paper Entry 1 */}
