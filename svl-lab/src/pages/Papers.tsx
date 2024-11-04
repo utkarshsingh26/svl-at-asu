@@ -40,7 +40,8 @@ function Papers() {
         <div className="container">
           <h1>Publications</h1>
           <hr />
-          <h3>Full Papers (Journal, Conference, and Symposium)</h3>
+          <h2>Full Papers (Journal, Conference, and Symposium)</h2>
+          <br/>
 
           {/* Paper Entry 1 */}
           <div className="row">
@@ -535,6 +536,10 @@ function Papers() {
               <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Paper</a>
             </div>
           </div>
+
+          <hr />
+          <h2>Workshop Papers, Short Papers, and Other</h2>
+          <br/>
 
         </div>
       </div>
