@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 
-const DesertGraphThemeWithPapers = ({ children }: { children: React.ReactNode }) => {
+const NightDesertGraphThemeWithPapers = ({ children }: { children: React.ReactNode }) => {
   // Generate an array of random positions for tumbleweeds
   const pieCharts = Array.from({ length: 5 }, (_, index) => ({
     id: index,
@@ -34,70 +34,65 @@ const DesertGraphThemeWithPapers = ({ children }: { children: React.ReactNode })
   }));
 
   return (
-    <div className="relative w-full h-full overflow-hidden bg-gradient-to-b from-orange-300 via-yellow-200 to-orange-100">
-      {/* Sun as Simplified Sunburst Chart */}
-      <div className="absolute top-10 left-1/2 transform -translate-x-1/2">
-        <div className="relative w-[150px] h-[150px] rounded-full bg-yellow-400">
-          {[...Array(12)].map((_, index) => (
-            <div
-              key={index}
-              className="absolute bg-yellow-500"
-              style={{
-                width: '150px',
-                height: '150px',
-                transformOrigin: 'center',
-                transform: `rotate(${index * 30}deg)`,
-                clipPath: 'polygon(50% 50%, 100% 0, 100% 100%)',
-              }}
-            />
-          ))}
-          <div className="absolute top-0 left-0 w-full h-full bg-yellow-400 rounded-full opacity-80" />
-        </div>
-      </div>
+    <div className="relative w-full h-full overflow-hidden bg-gradient-to-b from-indigo-900 via-gray-800 to-black">
+      {/* Stars in the night sky */}
+      {[...Array(100)].map((_, index) => (
+        <div
+          key={index}
+          className="absolute rounded-full bg-white opacity-70"
+          style={{
+            width: `${Math.random() * 2 + 1}px`,
+            height: `${Math.random() * 2 + 1}px`,
+            top: `${Math.random() * 100}%`,
+            left: `${Math.random() * 100}%`,
+          }}
+        />
+      ))}
 
-      {/* Flat desert floor as Steam Graph */}
+      {/* Moon */}
+      <div className="absolute top-10 right-1/4 w-[100px] h-[100px] bg-white rounded-full opacity-80 shadow-xl" />
+
+      {/* Flat desert floor */}
       <svg className="absolute bottom-0 left-0 w-full h-3/4" viewBox="0 0 100 25" preserveAspectRatio="none">
         <path
           d="M0,20 Q20,15 40,20 T80,15 Q90,18 100,20 L100,25 L0,25 Z"
-          fill="#D4A373"
+          fill="#6D4C41"
         />
       </svg>
 
-      {/* Cacti as Stacked Bar Graphs with Branches */}
+      {/* Cacti as silhouettes */}
       {cacti.map((cactus) => (
         <div
           key={cactus.id}
           className="absolute left-0"
           style={{
-            bottom: '12.5%', // Position on the ground
-            left: `${cactus.left}%`, // Scatter across the width
+            bottom: '12.5%',
+            left: `${cactus.left}%`,
             width: '30px',
           }}
         >
-          {/* Main body sections */}
           <div
-            className="bg-green-500 rounded-t-lg"
+            className="bg-green-900 rounded-t-lg"
             style={{
-              height: `${cactus.height * 0.5}px`, // Bottom half height
+              height: `${cactus.height * 0.5}px`,
             }}
           />
           <div
             className="bg-green-700 rounded-b-lg"
             style={{
-              height: `${cactus.height * 0.5}px`, // Top half height
+              height: `${cactus.height * 0.5}px`,
             }}
           />
 
-          {/* Branches as smaller bar graphs */}
           {[...Array(2)].map((_, branchIndex) => (
             <div
               key={branchIndex}
-              className="absolute bg-green-600 rounded-lg"
+              className="absolute bg-green-800 rounded-lg"
               style={{
                 width: '10px',
-                height: `${cactus.height * 0.2}px`, // Smaller branches
-                top: `${cactus.height * 0.3}px`, // Position along the main body
-                left: branchIndex === 0 ? '-15px' : '35px', // Position to the left or right
+                height: `${cactus.height * 0.2}px`,
+                top: `${cactus.height * 0.3}px`,
+                left: branchIndex === 0 ? '-15px' : '35px',
                 transform: `rotate(${branchIndex === 0 ? '-20deg' : '20deg'})`,
               }}
             />
@@ -105,11 +100,11 @@ const DesertGraphThemeWithPapers = ({ children }: { children: React.ReactNode })
         </div>
       ))}
 
-      {/* Animated Tumbleweeds as Pie Charts */}
+      {/* Animated Tumbleweeds */}
       {pieCharts.map((chart) => (
         <motion.div
           key={chart.id}
-          className="absolute rounded-full border-[16px] border-t-orange-600 border-l-transparent border-r-orange-200 border-b-orange-400"
+          className="absolute rounded-full border-[16px] border-t-gray-500 border-l-transparent border-r-gray-400 border-b-gray-600"
           style={{
             width: `${chart.size}px`,
             height: `${chart.size}px`,
@@ -129,11 +124,11 @@ const DesertGraphThemeWithPapers = ({ children }: { children: React.ReactNode })
         />
       ))}
 
-      {/* Animated Wind Lines with Circling Effect */}
+      {/* Animated Wind Lines */}
       {windLines.map((wind) => (
         <motion.div
           key={wind.id}
-          className="absolute h-[3px] bg-white opacity-70"
+          className="absolute h-[2px] bg-gray-300 opacity-50"
           style={{
             width: '150px',
             top: `${wind.top}%`,
@@ -141,7 +136,7 @@ const DesertGraphThemeWithPapers = ({ children }: { children: React.ReactNode })
           }}
           animate={{
             x: ['-10%', '40%', '110%'],
-            y: ['0%', '10%', '0%'],
+            y: ['0%', '5%', '0%'],
           }}
           transition={{
             duration: 8,
@@ -156,7 +151,7 @@ const DesertGraphThemeWithPapers = ({ children }: { children: React.ReactNode })
       {papers.map((paper) => (
         <motion.div
           key={paper.id}
-          className="absolute bg-white shadow-lg opacity-90"
+          className="absolute bg-gray-400 shadow-lg opacity-80"
           style={{
             width: `${paper.size + 10}px`,
             height: `${(paper.size + 10) / 1.5}px`,
@@ -165,7 +160,7 @@ const DesertGraphThemeWithPapers = ({ children }: { children: React.ReactNode })
             borderRadius: '4px',
           }}
           animate={{
-            x: ['-10%', '1100%'],
+            x: ['-10%', '510%'],
             rotate: [0, 360],
           }}
           transition={{
@@ -178,11 +173,11 @@ const DesertGraphThemeWithPapers = ({ children }: { children: React.ReactNode })
       ))}
 
       {/* Children Content */}
-      <div className="relative z-10 flex flex-col min-h-screen text-slate-900">
+      <div className="relative z-10 flex flex-col min-h-screen text-white">
         {children}
       </div>
     </div>
   );
 };
 
-export default DesertGraphThemeWithPapers;
+export default NightDesertGraphThemeWithPapers;
