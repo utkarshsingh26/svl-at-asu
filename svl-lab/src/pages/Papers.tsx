@@ -541,6 +541,180 @@ function Papers() {
           <h2>Workshop Papers, Short Papers, and Other</h2>
           <br/>
 
+          {/* Paper Entry 1 */}
+          <div className="row">
+            <div className="col-2 my-2">
+              <img
+                className="border rounded shadow img-fluid"
+                src="huang2022sparvis.png"
+                alt="Visualization Perceptual Classification"
+                data-holder-rendered="true"
+              />
+            </div>
+            <div className="col-10 my-2">
+            Jinbin Huang, Shuang Liang, Qi Xiong, Yu Gao, Chao Mei, Yi Xu, and Chris Bryan.
+              <b> SPARVIS: Combining Smartphone and Augmented Reality for Visual Data Analytics.</b>
+              <i> Workshop on Visual Analytics in Immersive Environments (VAinIE) at ISMAR 2022. </i> <br/>
+              <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">DOI</a> | 
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Short Paper</a>
+            </div>
+          </div>
+
+          {/* Paper Entry 2 */}
+          <div className="row">
+            <div className="col-2 my-2">
+              <img
+                className="border rounded shadow img-fluid"
+                src="huang2021phoenix.png"
+                alt="Visualization Perceptual Classification"
+                data-holder-rendered="true"
+              />
+            </div>
+            <div className="col-10 my-2">
+            Jinbin Huang, Jonathan Plasencia, Dianna Bardo, Nicholas Rubert, Erik Ellsworth, Steven Zangwill, and Chris Bryan.
+              <b> Phoenix Virtual Heart: A Hybrid VR-Desktop Visualization System for Cardiac Surgery Planning and Education.</b>
+              <i> 2021 IEEE Workshop on Visual Analytics in Healthcare (VAHC), pp 36-40, 2021. </i> <br/>
+              <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">DOI</a> | 
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Short Paper</a>
+            </div>
+          </div>
+
+          {/* Paper Entry 3 */}
+          <div className="row">
+            <div className="col-2 my-2">
+              <img
+                className="border rounded shadow img-fluid"
+                src="arunkumar2021bayesian.png"
+                alt="Visualization Perceptual Classification"
+                data-holder-rendered="true"
+              />
+            </div>
+            <div className="col-10 my-2">
+            Anjana Arunkumar, Shashank Ginjpalli, and Chris Bryan. 
+              <b> Bayesian Modelling of Alluvial Diagram Complexity.</b>
+              <i> 2021 IEEE Visualization Conference (VIS), pp 51-55, 2021. </i> <br/>
+              <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">DOI</a> | 
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Short Paper</a>
+            </div>
+          </div>
+
+          {/* Paper Entry 4 */}
+          <div className="row">
+            <div className="col-2 my-2">
+              <img
+                className="border rounded shadow img-fluid"
+                src="huang2020totemfinder.png"
+                alt="Visualization Perceptual Classification"
+                data-holder-rendered="true"
+              />
+            </div>
+            <div className="col-10 my-2">
+            Jinbin Huang, Aditi Mishra, Anjana Arunkumar, and Chris Bryan.
+              <b> TotemFinder: A Visual Analytics Approach for Image-based Key Players Identification. </b>
+              <i> 2020 IEEE Conference on Visual Analytics Science and Technology (VAST Challenge). </i> <br/>
+              <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">Contest Site</a> | 
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Short Paper</a> |
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Presentation</a> |
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Code Repository</a> |
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Honorable Mention: Effective Use of Visual Encodings for Correcting Classification Errors</a>
+            </div>
+          </div>
+
+          {/* Paper Entry 5 */}
+          <div className="row">
+            <div className="col-2 my-2">
+              <img
+                className="border rounded shadow img-fluid"
+                src="arunkumar2020visual.png"
+                alt="Visualization Perceptual Classification"
+                data-holder-rendered="true"
+              />
+            </div>
+            <div className="col-10 my-2">
+            Anjana Arunkumar, Swaroop Mishra, and Chris Bryan.
+              <b> A Visual Exploration of Fair Evaluation for ML - Bridging the Gap Between Research and the Real World. </b>
+              <i> 3rd Workshop on Visualization for AI Explainability at IEEE VIS 2020. </i> <br/>
+              <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">Workshop Site</a> | 
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Data Story</a> 
+            </div>
+          </div>
+
+          {/* Paper Entry 6 */}
+          <div className="row">
+            <div className="col-2 my-2">
+              <img
+                className="border rounded shadow img-fluid"
+                src="arunkumar2020realtime.png"
+                alt="Visualization Perceptual Classification"
+                data-holder-rendered="true"
+              />
+            </div>
+            <div className="col-10 my-2">
+            Anjana Arunkumar, Swaroop Mishra, Bhavdeep Singh Sachdeva, Chitta Baral, and Chris Bryan.
+              <b> Real-Time Visual Feedback for Educative Benchmark Creation: A Human-and-Metric-in-the-Loop Workflow. </b>
+              <i> NeurIPS 2020 Workshop on Human And Machine in-the-Loop Evaluation and Learning Strategies (HAMLETS 2020). </i> <br/>
+              <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">Workshop Site</a> | 
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Data Story</a> 
+            </div>
+          </div>
+
+          {/* Paper Entry 7 */}
+          <div className="row">
+            <div className="col-2 my-2">
+              <img
+                className="border rounded shadow img-fluid"
+                src="pvis_storytelling2018.png"
+                alt="Visualization Perceptual Classification"
+                data-holder-rendered="true"
+              />
+            </div>
+            <div className="col-10 my-2">
+            Hidekazu Shidara, Chris Bryan, Oh-Hyun Kwon, Kwan-Liu Ma.
+              <b> North Korea: Real or Paper Tiger? </b>
+              <i> IEEE PacificVis 2018 Visual Storytelling Contest. </i> <br/>
+              <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">Contest Site</a> | 
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Demo</a> 
+            </div>
+          </div>
+
+          {/* Paper Entry 8 */}
+          <div className="row">
+            <div className="col-2 my-2">
+              <img
+                className="border rounded shadow img-fluid"
+                src="pvis_storytelling2017.png"
+                alt="Visualization Perceptual Classification"
+                data-holder-rendered="true"
+              />
+            </div>
+            <div className="col-10 my-2">
+            Chris Bryan, Keshav Dasu, Sravya Divakarla, Kwan-Liu Ma
+              <b> Summarizing the U.S. Presidential Election Day 2016. </b>
+              <i> IEEE PacificVis 2017 Visual Storytelling Contest. </i> <br/>
+              <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">Contest Site</a> | 
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Data Story</a> 
+            </div>
+          </div>
+
+          {/* Paper Entry 9 */}
+          <div className="row">
+            <div className="col-2 my-2">
+              <img
+                className="border rounded shadow img-fluid"
+                src="predanalytics2014.png"
+                alt="Visualization Perceptual Classification"
+                data-holder-rendered="true"
+              />
+            </div>
+            <div className="col-10 my-2">
+            Chris Bryan, Susan Mniszewski, and Kwan-Liu Ma.
+              <b> Integrating Predictive Visualization with the Epidemic Disease Simulation System. </b>
+              <i> IEEE VIS 2014 Workshop on Visualization for Predictive Analytics. </i> <br/>
+              <a href="https://example.com/doi" className="link-danger" target="_blank" rel="noopener noreferrer">Workshop Site</a> | 
+              <a href="https://example.com/paper3" className="link-danger" target="_blank" rel="noopener noreferrer"> Short Paper</a> 
+            </div>
+          </div>
+
         </div>
       </div>
     </NightDesertGraphThemeWithPapers>
